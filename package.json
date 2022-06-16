@@ -4,7 +4,8 @@
   "description": "Homework for 3-rd lesson",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint-fix": "eslint --fix",
+    "dev": "nodemon --watch '*.ts' --exec 'ts-node' ./src/index.ts"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,17 @@
   "bugs": {
     "url": "https://github.com/SemenSavlook/RSNJ2022Q2-HW-3/issues"
   },
-  "homepage": "https://github.com/SemenSavlook/RSNJ2022Q2-HW-3#readme"
+  "homepage": "https://github.com/SemenSavlook/RSNJ2022Q2-HW-3#readme",
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.28.0",
+    "@typescript-eslint/parser": "^5.28.0",
+    "eslint": "^8.17.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^2.0.16",
+    "ts-node": "^10.8.1",
+    "tsc": "^2.0.4",
+    "typescript": "^4.7.3"
+  }
 }
