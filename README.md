@@ -1,2 +1,2 @@
-# RSNJ2022Q2-HW-3
-RSS NJ2022Q2 homework#3
+# RS-NJ-2022-Q2-HW-3
+RSS NJ-2022-Q2 homework#3
