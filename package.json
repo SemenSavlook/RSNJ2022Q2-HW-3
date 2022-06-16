@@ -1,0 +1,22 @@
+{
+  "name": "rsnj2022q2-hw-3",
+  "version": "1.0.0",
+  "description": "Homework for 3-rd lesson",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SemenSavlook/RSNJ2022Q2-HW-3.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "SamSavlook",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SemenSavlook/RSNJ2022Q2-HW-3/issues"
+  },
+  "homepage": "https://github.com/SemenSavlook/RSNJ2022Q2-HW-3#readme"
+}
