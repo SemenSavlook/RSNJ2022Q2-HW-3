@@ -1,8 +1,15 @@
-const additionT = (a: number, b: number): number => a + b;
+import 'dotenv/config';
+const { stdout } = process;
+const PORT = process.env.PORT || 4000;
+import * as http from 'http';
 
-const numberR: number = 101;
-const numberRr: number = 1;
-const resulte: number = additionT(numberR, numberRr);
+http.createServer((request, response) => {
+  response.write('Hello world!!!!!!');
+  response.end();
+}).listen(PORT);
 
-console.log('The result is %d', resulte);
-console.log('The result is %d', resulte);
+
+
+stdout.write(`\nSERVER IS RUNNIG ON PORT ${PORT}\n\n`);
+
+
